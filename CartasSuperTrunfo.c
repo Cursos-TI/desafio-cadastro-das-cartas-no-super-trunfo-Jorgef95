@@ -3,14 +3,8 @@
     int main (){
 
         // Desafio Super Trunfo - Países
-        // Tema 1 - Cadastro das Cartas
-        // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-        // Siga os comentários para implementar cada parte do desafio.
-        
-        
-            // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-            // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-        
+        // Tema 2 - Desafio Aventureiro
+          
             //Declaração das variáveis da primeira carta
             char estado1; // Estado: Uma letra de 'A' a 'H' (representando um dos oito estados).
             char codigo1 [5]; // Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03)
@@ -26,7 +20,6 @@
             float area2, pib2; // area: A área da cidade em quilômetros quadrados; PIB: O Produto Interno Bruto da cidade;
                     
             // Cadastro das Cartas:
-            // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
             // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
             
             //Entrada de dados da primeira carta
@@ -65,9 +58,9 @@
                           
             // Cálculo do PIB per capita e densidade populacional;
             //Carta 1:
-
+        
             float dp1 = (float) populacao1/area1, ppc1 = (float) pib1*1000000000/populacao1; //dp: densidade per capita, ppc: PIB per capita.
-            
+        
             //Carta 2:
 
             float dp2 = (float) populacao2/area2, ppc2 = (float) pib2*1000000000/populacao2; //dp: densidade per capita, ppc: PIB per capita.
@@ -88,7 +81,6 @@
             printf("Número de Pontos Turísticos: %d\n", npt1);
             printf("Densidade Populacional: %.2f hab/km²\n", dp1);
             printf("PIB per Capita: %.2f reais\n", ppc1);
-
         
             //Exibição dos dados da segunda carta
         
@@ -101,9 +93,7 @@
             printf("PIB: %.2f bilhões de reais\n", pib2);
             printf("Número de Pontos Turísticos: %d\n", npt2);
             printf("Densidade Populacional: %.2f hab/km²\n", dp2);
-            printf("PIB per Capita: %.2f reais\n", ppc2);
-        
-        
+            printf("PIB per Capita: %.2f reais\n", ppc2);               
         
             return 0;
         
