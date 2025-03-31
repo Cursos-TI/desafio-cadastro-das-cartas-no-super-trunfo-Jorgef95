@@ -3,7 +3,7 @@
     int main (){
 
         // Desafio Super Trunfo - Países
-        // Tema 2 - Desafio Aventureiro
+        // Tema 3 - Desafio Mestre
           
             //Declaração das variáveis da primeira carta
             char estado1; // Estado: Uma letra de 'A' a 'H' (representando um dos oito estados).
